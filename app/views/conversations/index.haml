@@ -1,0 +1,27 @@
+
+- if collection.size == 0
+  no active conversations
+- else
+  %table
+    %tr
+      %th.action
+      %th Title
+      %th.phone Phone number
+      %th.number Messages
+      %th.datetime Created
+      %th.datetime Updated
+    - for c in collection
+      %tr{:class => cycle('even', 'odd')}
+        %td.action= link_to 'Open', conversation_url(c)
+        %td= c.title
+        %td= c.phone_number_formatted
+        %td= c.messages.size
+        %td= c.created_at.to_s(:us_with_time)
+        %td
+          = time_ago_in_words(c.updated_at)
+          ago
+        
+:javascript
+  setTimeout(function(){
+    window.location = window.location;
+  }, 30000)

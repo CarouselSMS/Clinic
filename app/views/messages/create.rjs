@@ -1,0 +1,2 @@
+page.replace_html :messages_placeholder, :partial => 'messages/conversation', :locals => {:messages => collection}
+page['message_body'].value = ''

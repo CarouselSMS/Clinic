@@ -1,0 +1,21 @@
+
+= link_to '<<< back to conversations', conversations_url
+
+#spinner{:style => "display: none"}
+
+%dl
+  %dt Phone
+  %dd= resource.phone_number_formatted
+
+  %dt Started
+  %dd= resource.created_at.to_s(:us_with_time)
+
+#messages_placeholder
+  = render :partial => 'messages/conversation', :locals => {:messages => resource.messages}
+
+= render :partial => 'messages/form', :locals => {:message => resource.messages.new({:incoming => false})}
+
+:javascript
+  var updateUrl = "#{conversation_messages_url(resource)}";
+
+= javascript_include_tag 'updater'

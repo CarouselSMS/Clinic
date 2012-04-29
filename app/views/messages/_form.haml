@@ -1,0 +1,5 @@
+
+- semantic_remote_form_for [@conversation, message], :html => {:class => 'linear'} do |f|
+  %ul
+    = f.input :body, :label => 'Response', :as => :text, :input_html => {:cols => 60, :rows => 4}
+    = f.submit 'Send'

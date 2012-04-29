@@ -1,0 +1,10 @@
+
+.messages
+  - for m in messages
+    .message{:class => m.incoming? ? 'incoming' : 'outgoing'}
+      .time
+        = time_ago_in_words(m.created_at)
+        ago
+        = '(' + m.created_at.to_s(:time) + ')'
+      .body
+        =m.body

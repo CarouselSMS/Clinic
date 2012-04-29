@@ -1,0 +1,183 @@
+body
+  font-family: Trebuchet MS, Helvetica, Arial, sans-serif
+  font-size: 12px
+  background: #898989 url(../images/body-bg.jpg) repeat-x
+  margin: 10px 0
+
+a img
+  border: none
+
+a
+  color: #008844
+  padding: 1px 3px
+  text-decoration: none
+
+a:hover, a.plus:hover
+  color: #FFFFFF
+  background-color: #008844
+
+a.plus
+  background: url(../images/icons/plus_circle.png) no-repeat 3px 50%
+  padding-left: 24px
+
+a.plus:hover
+
+
+h1, h2
+  text-transform: uppercase
+  color: #777
+#logo
+  width: 960px
+  margin: 0 auto
+  font-size: 300%
+  text-transform: uppercase
+  color: #555
+  padding-bottom: 5px
+#container
+  position: relative
+  width: 920px
+  margin: 0 auto
+  padding: 20px
+  background-color: white
+  min-height: 580px
+  border: 5px #DDD solid
+
+  ul.navigation
+    list-style: none
+    margin: 0
+    padding: 0 0 18px 0
+    border-bottom: 1px #ddd solid
+
+    li
+      float: left
+      padding: 0 10px
+
+    li.first
+      padding-left: 0
+
+    li.right
+      float: right !important
+
+    li.border
+      border-right: 1px #ddd solid
+
+  img
+    vertical-align: top
+
+
+form.formtastic
+  margin: 20px 0
+  &.linear
+    label
+      float: none
+      display: block
+  li
+    margin-bottom: 10px !important
+    overflow: hidden
+  label
+    width: 150px
+    float: left
+    input[type=checkbox]
+      padding: 5px !important
+  .inline-errors
+    margin-left: 150px
+    color: #CC0000
+  .thumb
+    margin-left: 150px
+    margin-bottom: 10px
+
+tr.filter
+  input
+    width: 100%
+
+table
+  width: 100%
+  border-collapse: collapse
+  margin-bottom: 10px
+  tr
+    &.odd, &.filter
+      td
+        background-color: #F6F6F6
+    &.even
+      td
+        background-color: #FFFFFF
+
+  th
+    border-bottom: 2px #ccc solid
+    text-align: left
+    &.enabled, &.id, &.number
+      width: 5%
+    &.action, &.actions, &.number, &.phone
+      width: 10%
+    &.datetime
+      width: 15%
+
+  td
+    border-bottom: 1px #ccc dotted
+    padding: 4px
+    &.enabled
+      text-align: center
+    &.action
+      text-align: center
+    .description
+      font-size: 11px
+      color: #999
+
+    div.name, div.description
+      margin-left: 60px
+
+    div.thumb
+      border: 1px #999 solid
+      float: left
+      margin: 0 5px 5px 0
+
+table.list
+  width: 600px
+  td:first-child
+    width: 150px
+    color: #777
+
+
+.notice
+  border: 1px #090 solid
+  background: #CCFFCC url(../images/icons/tick.png) no-repeat 5px 50%
+  padding: 4px 4px 4px 30px
+  margin: 0 0 20px 0
+
+.plus-link
+  float: right
+  margin-top: -40px
+
+.will_paginate_info
+  padding: 5px 0 20px 0
+
+dl
+  padding: 10px 0
+  dt
+    width: 150px
+    float: left
+    clear: both
+    color: #777
+  dd
+    font-weight: bold
+
+.messages
+  .message
+    padding: 10px
+    margin: 5px 0
+    &.incoming
+      background-color: #F0F0F0
+    &.outgoing
+      margin-left: 50px
+      background-color: #F7F7F7
+    .time
+      float: right
+      color: #777
+
+#spinner
+  background: url(../images/spinner.gif) no-repeat
+  width: 24px
+  height: 24px
+  position: absolute
+  top: 10px
+  right: 10px
