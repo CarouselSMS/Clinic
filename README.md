@@ -7,7 +7,7 @@ Clinic SMS
 
 A user can text in a keyword to a short or long code and engage in an anonymous conversation with a doctor or nurse.
 
-Of course, there are many other uses for PC-to-SMS chat. 
+There are many other uses for PC-to-SMS chat. 
 
 
 #### Notes:
@@ -20,3 +20,10 @@ Of course, there are many other uses for PC-to-SMS chat.
 [![home](http://dl.dropbox.com/u/225019/rm-app-screenshots/Clinic/thumb_home.png)](http://dl.dropbox.com/u/225019/rm-app-screenshots/Clinic/home.png)
 [![conversation view](http://dl.dropbox.com/u/225019/rm-app-screenshots/Clinic/thumb_conversation.png)](http://dl.dropbox.com/u/225019/rm-app-screenshots/Clinic/conversation.png)
 
+
+License
+=======
+
+AntiTow is Copyright © 2013 [Recess Mobile](http://recess.im/).
+
+It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
