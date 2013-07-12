@@ -24,6 +24,6 @@ There are many other uses for PC-to-SMS chat.
 License
 =======
 
-Clinic is Copyright © 2013 [Recess Mobile](http://recess.im/).
+Clinic SMS is Copyright © 2013 [Recess Mobile](http://recess.im/).
 
 It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
